@@ -1,0 +1,18 @@
+[package]
+name = "certbot-dns01-hook"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { version = "1.0.100" }
+hickory-server = "0.25.2"
+tokio = { version = "1.47", features = ["full"] }
+tracing-subscriber = "0.3.20"
+syslog-tracing = "0.3.1"
+nix = {version = "0.30.1", features =["signal", "process", "fs"]}
+tracing = "0.1.41"
+tracing-panic = "0.1.2"
+toml = "0.9.7"
+serde = "1.0"
+clap = { version = "4.5.48", features = ["derive"] }
+ctrlc = "3.5.0"

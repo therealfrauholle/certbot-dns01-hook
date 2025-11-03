@@ -1,0 +1,13 @@
+# action.yml
+name: 'Integration Environment'
+description: 'Minimal environment for integration testing'
+inputs:
+  test-to-run:
+    description: 'Name of the shell script to rum'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.test-to-run }}
+

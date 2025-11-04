@@ -1,6 +1,9 @@
 [package]
 name = "certbot-dns01-hook"
 version = "0.1.0"
+description="Hook for certbot to serve the DNS01 challenge secret TXT record"
+license="MIT"
+repository="https://github.com/therealfrauholle/certbot-dns01-hook"
 edition = "2024"
 
 [dependencies]

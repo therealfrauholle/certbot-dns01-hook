@@ -1,3 +1,9 @@
+# Certbot DNS01 Hook
+[![crates.io](https://img.shields.io/crates/v/rust-crate-template.svg)](https://crates.io/crates/certbot-dns01-hook)
+[![docs.rs](https://docs.rs/rust-crate-template/badge.svg)](https://docs.rs/certbot-dns01-hook)
+[![github.com](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yaml)
+Serve DNS01 challenge secrets for certbot, compatible with any DNS provider.
+
 # Certbot ACME hook script
 If you require a quick setup to obtain certificates from Let's Encrypt using the DNS01 challenge for your small deployment, this script might be for you.
 

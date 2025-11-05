@@ -1,7 +1,7 @@
 # Certbot DNS01 Hook
 [![crates.io](https://img.shields.io/crates/v/rust-crate-template.svg)](https://crates.io/crates/certbot-dns01-hook)
 [![docs.rs](https://docs.rs/rust-crate-template/badge.svg)](https://docs.rs/certbot-dns01-hook)
-[![github.com](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yaml)
+[![CI/CD](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/therealfrauholle/certbot-dns01-hook/actions/workflows/main.yml)
 Serve DNS01 challenge secrets for certbot, compatible with any DNS provider.
 
 # Certbot ACME hook script
